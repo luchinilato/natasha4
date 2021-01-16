@@ -1,10 +1,10 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/natasha/Hero";
-import About from "../sections/natasha/About";
-import Services from "../sections/natasha/Services";
-import Contadores from "../sections/natasha/Contadores";
-import Testimonials from "../sections/natasha/Testimonials";
+// import About from "../sections/natasha/About";
+// import Services from "../sections/natasha/Services";
+// import Contadores from "../sections/natasha/Contadores";
+// import Testimonials from "../sections/natasha/Testimonials";
 
 const IndexPage = () => {
   return (
@@ -20,10 +20,10 @@ const IndexPage = () => {
         }}
       >
         <Hero />
-        <About />
+        {/* <About />
         <Services />
         <Contadores />
-        <Testimonials />
+        <Testimonials /> */}
       </PageWrapper>
     </>
   );
