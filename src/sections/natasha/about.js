@@ -17,7 +17,7 @@ const Content = () => {
             <Col sm="10" lg="12" xl="12">
               <div className="content-text">
                 <h2 className="gr-text-4 mb-9 justify-content-center">
-                  Quem sou eu? 
+                  Quem sou eu?
                   {/* <br className="d-none d-lg-block" />
                   leaving your room. */}
                 </h2>
