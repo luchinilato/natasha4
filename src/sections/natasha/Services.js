@@ -35,11 +35,11 @@ const Services = () => {
               data-aos="fade-right"
               data-aos-duration="750"
             >
-              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-green h-100">
+              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple h-100">
                 {/* <div className="card-img mb-11">
                   <img src={imgC1} alt="..." />
                 </div> */}
-                <h3 className="card-title gr-text-6 mb-6">Cursos</h3>
+                <h3 className="card-title gr-text-6 mb-6">Cursos <br></br>On-line</h3>
                 <p className="gr-text-9 mb-11">
                   With lots of unique blocks, you can easily build a page
                   without coding. Build your next landing page.
@@ -60,7 +60,7 @@ const Services = () => {
               data-aos="fade-up"
               data-aos-duration="750"
             >
-              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-blue h-100">
+              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple-opacity1 h-100">
                 {/* <div className="card-img mb-11">
                   <img src={imgC2} alt="..." />
                 </div> */}
@@ -85,7 +85,7 @@ const Services = () => {
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-red h-100">
+              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple-opacity2 h-100">
                 {/* <div className="card-img mb-11">
                   <img src={imgC3} alt="..." />
                 </div> */}
