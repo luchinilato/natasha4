@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
 import imgC1 from "../../assets/image/l5/png/l5-service-card1.png";
 import imgC2 from "../../assets/image/l5/png/l5-service-card2.png";
@@ -11,7 +12,7 @@ const Services = () => {
   return (
     <>
       {/* <!--Service section  -->*/}
-      <div className="service-section bg-default-4 pt-15 pb-13 py-lg-25">
+      <div className="service-section bg-default-4 pt-15">
         <Container>
           <Row className="justify-content-center">
             <Col md="9" lg="7" xl="6">
@@ -35,23 +36,27 @@ const Services = () => {
               data-aos="fade-right"
               data-aos-duration="750"
             >
-              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple h-100">
-                {/* <div className="card-img mb-11">
-                  <img src={imgC1} alt="..." />
-                </div> */}
-                <h3 className="card-title gr-text-6 mb-6">Cursos <br></br>On-line</h3>
-                <p className="gr-text-9 mb-11">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </p>
-                <a
-                  href="/"
-                  className="gr-text-9 btn-link with-icon text-white mt-auto"
-                >
-                  Learn more{" "}
-                  <i className="icon icon-tail-right font-weight-bold"></i>
+              <Link href="/cursos">
+                <a>
+                  <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple h-100">
+                    {/* <div className="card-img mb-11">
+                      <img src={imgC1} alt="..." />
+                    </div> */}
+                    <h3 className="card-title gr-text-6 mb-6">Cursos <br></br>On-line</h3>
+                    <p className="gr-text-9 mb-11">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.
+                    </p>
+                    
+                    <a className="gr-text-9 btn-link with-icon text-white mt-auto">
+                      Ver mais{" "}
+                      <i className="icon icon-tail-right font-weight-bold"></i>
+                    </a>
+                    
+                  </div>
                 </a>
-              </div>
+              </Link>
+
             </Col>
             <Col
               md="6"
@@ -60,23 +65,27 @@ const Services = () => {
               data-aos="fade-up"
               data-aos-duration="750"
             >
-              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple-opacity1 h-100">
-                {/* <div className="card-img mb-11">
-                  <img src={imgC2} alt="..." />
-                </div> */}
-                <h3 className="card-title gr-text-6 mb-6">Atendimento ThetaHealing®️</h3>
-                <p className="gr-text-9 mb-11">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </p>
-                <a
-                  href="/"
-                  className="gr-text-9 btn-link with-icon text-white mt-auto"
-                >
-                  Learn more{" "}
-                  <i className="icon icon-tail-right font-weight-bold"></i>
+              <Link href="/atendimentos-thehealing">
+                <a>
+                  <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple-opacity1 h-100">
+                    {/* <div className="card-img mb-11">
+                      <img src={imgC2} alt="..." />
+                    </div> */}
+                    <h3 className="card-title gr-text-6 mb-6">Atendimento ThetaHealing®️</h3>
+                    <p className="gr-text-9 mb-11">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.
+                    </p>
+                    <a
+                      href="/"
+                      className="gr-text-9 btn-link with-icon text-white mt-auto"
+                    >
+                      Ver mais{" "}
+                      <i className="icon icon-tail-right font-weight-bold"></i>
+                    </a>
+                  </div>
                 </a>
-              </div>
+              </Link>
             </Col>
             <Col
               md="6"
@@ -85,32 +94,35 @@ const Services = () => {
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple-opacity2 h-100">
-                {/* <div className="card-img mb-11">
-                  <img src={imgC3} alt="..." />
-                </div> */}
-                <h3 className="card-title gr-text-6 mb-6">Atendimento de Mesa Radiônica</h3>
-                <p className="gr-text-9 mb-11">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </p>
-                <a
-                  href="/"
-                  className="gr-text-9 btn-link with-icon text-white mt-auto"
-                >
-                  Learn more{" "}
-                  <i className="icon icon-tail-right font-weight-bold"></i>
+              <Link href="/atendimentos-mesa-radionica">
+                <a>
+                  <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple-opacity2 h-100">
+                    {/* <div className="card-img mb-11">
+                      <img src={imgC3} alt="..." />
+                    </div> */}
+                    <h3 className="card-title gr-text-6 mb-6">Atendimento de Mesa Radiônica</h3>
+                    <p className="gr-text-9 mb-11">
+                      With lots of unique blocks, you can easily build a page
+                      without coding. Build your next landing page.
+                    </p>
+                    <a className="gr-text-9 btn-link with-icon text-white mt-auto">
+                    Ver mais{" "}
+                      <i className="icon icon-tail-right font-weight-bold"></i>
+                    </a>
+                  </div>
                 </a>
-              </div>
-              <div
+              </Link>
+
+              {/* <div
                 className="gr-abs-br-custom gr-z-index-n1"
                 data-aos="zoom-in-right"
                 data-aos-duration="750"
               >
                 <img src={imgDot} alt="" />
-              </div>
+              </div> */}
             </Col>
           </Row>
+          
         </Container>
       </div>
     </>

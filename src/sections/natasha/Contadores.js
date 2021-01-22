@@ -6,7 +6,7 @@ import LazyLoad from "react-lazyload";
 const Contadores = () => (
   <>
     {/* <!-- Fact section --> */}
-    <div className="fact-section bg-default-4 pt-lg-15 pb-7 pb-lg-24">
+    <div className="fact-section bg-default-4 pt-lg-15 pb-7">
       <Container>
         <Row className="justify-content-center">
           <Col lg="4" md="6" sm="6" className="mb-9 mb-lg-0">

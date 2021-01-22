@@ -8,15 +8,14 @@ import imgGP from "../../assets/image/l6/png/l6-download-gplay.png";
 const Footer = () => {
   return (
     <>
-      <div className="footer-section pt-17 pt-lg-21">
+      <div className="footer-section">
         <Container>
           
-          <div className="copyright-area border-top py-9">
+          <div className="copyright-area py-9">
             <Row className="align-items-center">
               <Col lg="6">
                 <p className="copyright-text gr-text-11 mb-6 mb-lg-0 gr-text-color text-center text-lg-left">
-                  © 2020 Copyright, All Right Reserved, Made by Grayic with
-                  <i className="icon icon-heart-2-2 text-red align-middle ml-2"></i>
+                  © {(new Date().getFullYear())} Copyright, Todos os Direitos Reservados, por Luciano Chinilato
                 </p>
               </Col>
               <Col lg="6" className="text-center text-lg-right">

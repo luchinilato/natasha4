@@ -15,6 +15,20 @@ const Testimonial = () => {
       {/* <!-- Testimonial Area --> */}
       <div className="testimonial-section pt-15 pt-lg-24 pb-lg-12 bg-default-1">
         <Container>
+          <Row className="justify-content-center">
+            <Col md="9" lg="7" xl="6">
+              <div className="section-title text-center mb-11 mb-lg-19 px-lg-3">
+                {/* <h4 className="pre-title gr-text-12 text-red text-uppercase mb-7">
+                  Our services
+                </h4> */}
+                <h2 className="title gr-text-4">
+                  Depoimentos
+                  {/* <br className="d-none d-lg-block" /> our customers based on
+                  needs */}
+                </h2>
+              </div>
+            </Col>
+          </Row>
           <Row className="align-items-center justify-content-around">
             <Col lg="4" md="6" sm="9" className="mb-16">
               <div className="single-testimonial text-center h-100 d-flex flex-column px-5">

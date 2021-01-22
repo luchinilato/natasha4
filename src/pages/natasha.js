@@ -5,6 +5,7 @@ import About from "../sections/natasha/About";
 import Services from "../sections/natasha/Services";
 import Contadores from "../sections/natasha/Contadores";
 import Testimonials from "../sections/natasha/Testimonials";
+import Contact from "../sections/natasha/Contact";
 
 const IndexPage = () => {
   return (
@@ -24,6 +25,7 @@ const IndexPage = () => {
         <Services />
         <Contadores />
         <Testimonials />
+        <Contact />
       </PageWrapper>
     </>
   );

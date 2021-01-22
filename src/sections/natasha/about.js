@@ -10,16 +10,14 @@ const Content = () => {
   return (
     <>
       {/* <!-- Content Area --> */}
-      <div className="content-section content-section-3 bg-default-6 py-13 pt-lg-19 pb-lg-19">
+      <div className="content-section content-section-3 bg-default-6 py-13 pt-lg-19">
         <Container>
           <Row className="align-items-center justify-content-center">
             
             <Col sm="10" lg="12" xl="12">
               <div className="content-text">
-                <h2 className="gr-text-4 mb-9 justify-content-center">
+                <h2 className="gr-text-4 mb-9 ">
                   Quem sou eu?
-                  {/* <br className="d-none d-lg-block" />
-                  leaving your room. */}
                 </h2>
                 <p className="gr-text-8 justified">
                     Instrutora e Terapeuta, Biomédica, Mestre, Doutoranda em Ciências e Biotecnologia na área de Virologia. 
