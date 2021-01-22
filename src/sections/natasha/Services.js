@@ -36,7 +36,7 @@ const Services = () => {
               data-aos="fade-right"
               data-aos-duration="750"
             >
-              <Link href="/cursos">
+              <Link href="cursos">
                 <a>
                   <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-purple h-100">
                     {/* <div className="card-img mb-11">
