@@ -2,7 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 
 import PageWrapper from "../../components/PageWrapper";
-import Locations from "../../sections/natasha/cursos/Locations";
+import Locations from "../../sections/natasha/cursos/externo/Locations";
 import Content1 from "../../sections/landing3/Content1";
 import Feature from "../../sections/landing3/Feature";
 import Content2 from "../../sections/landing3/Content2";

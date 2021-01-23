@@ -2,13 +2,14 @@ import React from "react";
 import { Element } from "react-scroll";
 
 import PageWrapper from "../../components/PageWrapper";
-import Locations from "../../sections/natasha/cursos/Locations";
-import Content1 from "../../sections/landing3/Content1";
-import Feature from "../../sections/landing3/Feature";
-import Content2 from "../../sections/landing3/Content2";
-import CTA from "../../sections/landing3/CTA";
+import Hero from "../../sections/natasha/cursos/interno/Hero";
+import Oque from "../../sections/natasha/cursos/interno/Oque";
+import ParaQuerServe from "../../sections/natasha/cursos/interno/ParaQueServe";
+import Faq from "../../sections/natasha/cursos/interno/Faq";
+import VoceAprendera from "../../sections/natasha/cursos/interno/VoceAprendera";
+import VocePode from "../../sections/natasha/cursos/interno/VocePode";
 
-const CoWorking = () => {
+const Pagina = () => {
   return (
     <>
       <PageWrapper
@@ -21,18 +22,18 @@ const CoWorking = () => {
             style: "style3", //style1, style2
           }}
       >
-        {/* <Hero /> */}
-        {/* <Element name="elFact">
-          <Fact />
-        </Element> */}
-        <Locations />
-        {/* <Content1 />
-        <Feature />
-        <Content2 />
-        <CTA /> */}
+        <Hero params={{
+          nomeCurso:"ThetaHealing Dna Básico"
+        }} />
+        <Oque />
+        <ParaQuerServe />
+        <Faq />
+        <VoceAprendera />
+        <VocePode />
+        
       </PageWrapper>
     </>
   );
 };
 
-export default CoWorking;
+export default Pagina;

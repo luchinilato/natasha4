@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 
-import imgL1 from "../../../assets/image/coworking/jpg/location-card1.jpg";
-import imgL2 from "../../../assets/image/coworking/jpg/location-card2.jpg";
-import imgL3 from "../../../assets/image/coworking/jpg/location-card3.jpg";
+import imgL1 from "../../../../assets/image/coworking/jpg/location-card1.jpg";
+import imgL2 from "../../../../assets/image/coworking/jpg/location-card2.jpg";
+import imgL3 from "../../../../assets/image/coworking/jpg/location-card3.jpg";
 
 const Locations = () => (
   <>
