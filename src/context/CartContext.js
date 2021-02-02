@@ -5,24 +5,17 @@ import imgP2 from "../assets/image/inner/cart-product-image-2.png";
 
 const CartContext = React.createContext();
 
-const defaultItems = [
-  {
-    id: "p1",
-    title: "Amazon Echo Super Extra Bass Home System",
-    img: imgP1,
-    qty: 2,
-    price: 70,
-  },
-  {
-    id: "p2",
-    title: "Apple AirPods with Wired Charging Case",
-    img: imgP2,
-    qty: 1,
-    price: 150,
-  },
-];
-
 const CartProvider = ({ children }) => {
+  const defaultItems = [
+    {
+      id: 1,
+      title: null,
+      img: null,
+      qty: 3,
+      price: null,
+    }
+  ];
+  
   const [products, setProducts] = useState(defaultItems);
 
   const incProdQty = (productId) => {
@@ -49,18 +42,51 @@ const CartProvider = ({ children }) => {
     setProducts([...newProds]);
   };
 
+  const insertProduct = (product) => {
+    const newProduct = {
+      id: product.id,
+      title: product.title,
+      img: product.img,
+      qty: product.qty,
+      price: product.price,
+    };
+    console.log(product);
+    console.log(newProduct);
+    // setProducts([...newProduct]);
+    setProducts([...newProduct]);
+    // setProducts([newProduct]);
+  };
+
   const removeProduct = (productId) => {
     setProducts([...products.filter(({ id }) => id !== productId)]);
   };
+
+  const teste = () => {
+    let newProds = [
+      {
+        id: 3,
+        title: 'jaajajaja',
+        img: null,
+        qty: 1,
+        price: 9999,
+      }
+    ];
+    console.log(newProds);
+    setProducts([...newProds]);
+    
+  }
 
   return (
     <CartContext.Provider
       value={{
         products,
 
+        insertProduct,
         removeProduct,
         incProdQty,
         decProdQty,
+        setProducts,
+        teste
       }}
     >
       {children}

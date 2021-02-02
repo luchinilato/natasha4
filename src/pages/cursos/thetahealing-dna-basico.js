@@ -8,6 +8,8 @@ import ParaQuerServe from "../../sections/natasha/cursos/interno/ParaQueServe";
 import Faq from "../../sections/natasha/cursos/interno/Faq";
 import VoceAprendera from "../../sections/natasha/cursos/interno/VoceAprendera";
 import VocePode from "../../sections/natasha/cursos/interno/VocePode";
+import Preco from "../../sections/natasha/cursos/interno/Preco";
+import Contact from "../../sections/natasha/Contact";
 
 const Pagina = () => {
   return (
@@ -30,6 +32,10 @@ const Pagina = () => {
         <Faq />
         <VoceAprendera />
         <VocePode />
+        <Preco />
+        <Contact params={{
+          from:"thetahealing-dna-basico"
+        }} />
         
       </PageWrapper>
     </>

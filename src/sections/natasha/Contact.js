@@ -9,11 +9,11 @@ const Contact = () => {
             <Row className="justify-content-center pt-5">
               <Col lg="9" xl="8">
                 <div className="px-md-15 text-center">
-                <h2 className="title gr-text-4">Contact us</h2>
+                <h2 className="title gr-text-4">Restou alguma dúvida?</h2>
                   <p className="gr-text-8 mb-13">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next consultancy website within
-                    few minutes.
+                    Estamos à sua disposição para esclarecer qualquer dúvida.
+
+
                   </p>
                 </div>
               </Col>
