@@ -6,6 +6,54 @@ import { Select } from "../components/Core";
 import CartContext from "../context/CartContext";
 import InputMask from "react-input-mask";
 
+import {createCliente} from '../api/clientes';
+
+async function fetchEntries() {
+  // const entries = await client.getEntries({
+  //   content_type: 'cursos'
+  // })
+  // console.log(entries.items);
+  createCliente();
+}
+
+// const entries = await client.getEntries({
+//   content_type: 'cursos'
+// })
+// console.log(client);
+
+// Create entry
+// clientManagement.getSpace('<space_id>')
+// .then((space) => space.getEnvironment('<environment-id>'))
+// .then((environment) => environment.createEntryWithId('<content_type_id>', '<entry_id>', {
+//   fields: {
+//     title: {
+//       'en-US': 'Entry title'
+//     }
+//   }
+// }))
+// .then((entry) => console.log(entry))
+// .catch(console.error)
+
+// // Update entry
+// client.getSpace('<space_id>')
+// .then((space) => space.getEnvironment('<environment-id>'))
+// .then((environment) => environment.getEntry('<entry_id>'))
+// .then((entry) => {
+//   entry.fields.title['en-US'] = 'New entry title'
+//   return entry.update()
+// })
+// .then((entry) => console.log(`Entry ${entry.sys.id} updated.`))
+// .catch(console.error)
+
+
+
+
+const proceedCheckout = (e) =>{
+  
+  fetchEntries();
+
+}
+
 const CartItem = ({ qty, price, img, title, handleRemove }) => {
   return (
     <>
@@ -170,7 +218,7 @@ const Checkout = () => {
                       <Col xs="12">
                         <div className="button-block mt-3 ">
                           
-                          <Button className="form-btn w-100">
+                          <Button className="form-btn w-100" onClick={() => proceedCheckout()}>
                             Proceed to checkout
                           </Button>
                         </div>
