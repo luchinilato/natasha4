@@ -6,7 +6,7 @@ import imgC3 from "../../assets/image/conference/png/content-3-img.png";
 import imgCD from "../../assets/image/conference/png/fill-dot-red.png";
 import imgCR from "../../assets/image/conference/png/content-3-round.png";
 
-const Content = () => {
+const About = () => {
   return (
     <>
       {/* <!-- Content Area --> */}
@@ -51,4 +51,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default About;
